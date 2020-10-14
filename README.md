@@ -52,3 +52,4 @@ output:
 [[[454, 423], [519, 423], [519, 455], [454, 455]], 'EXIT', 0.7149630188941956]
 ```
 
+https://github.com/faustomorales/keras-ocr
