@@ -14,5 +14,11 @@ RUN wget https://raw.githubusercontent.com/yanliang12/yan_ocr/main/yan_ocr_downl
 
 RUN python yan_ocr_download_model.py
 
+RUN apt-get install -y tar
+
+RUN git clone https://github.com/yanliang12/yan_ocr.git
+
+WORKDIR /yan_ocr/
+
 CMD bash
 #################################
