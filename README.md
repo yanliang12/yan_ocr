@@ -8,7 +8,9 @@ docker run -it -v /Users/yan/Downloads/:/yan/ yan_ocr:1.0.1
 python test.py
 ```
 
-input: ![input](/chinese_ocr.jpeg)
+input: 
+
+![input](/chinese_ocr.jpeg)
 
 output: 
 
