@@ -10,8 +10,8 @@ docker run -it -v /Users/yan/Downloads/:/yan/ yan_ocr:1.0.1
 from yan_ocr import extract_text
 
 extract_text(
-	"test4.png",
-	"/yan/test4_output.png")
+	image_path = "/yan/test2.jpeg",
+	output_image_path = "/yan/test2_output.png")
 ```
 
 <table>
