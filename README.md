@@ -25,7 +25,6 @@ python test.py
       <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="300">
 </pre>
     </td>
-  </tr>
     <td>
 [
   {
@@ -38,7 +37,9 @@ python test.py
     'score': 0.24870802462100983, 
     'coordinate': [[177, 35], [533, 35], [533, 121], [177, 121]]
    }
- ]    </td>
+ ]    
+</td>
+</tr>
 </table>
 
 
