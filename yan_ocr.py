@@ -11,7 +11,7 @@ def extract_text(
 	output_image_path):
 	o = reader_en.readtext(image_path)
 	output = [{"text": r[1], "score": r[2], 
-		"coordinate": [list(p) for p in r[0]]}
+		"coordinate": [list(p) for p in numpy.array(r[0]).astype(int)]}
 		for r in o]
 	if output_image_path is not None:
 		im = Image.open(image_path)
