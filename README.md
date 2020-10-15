@@ -4,8 +4,14 @@
 ```bash
 docker build -t yan_ocr:1.0.1 .
 docker run -it -v /Users/yan/Downloads/:/yan/ yan_ocr:1.0.1
+```
 
-python test.py
+```python
+from yan_ocr import extract_text
+
+extract_text(
+	"test4.png",
+	"/yan/test4_output.png")
 ```
 
 <table>
