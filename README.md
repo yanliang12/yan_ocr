@@ -13,6 +13,7 @@ python test.py
     <tr>
       <th>Input Photo</th>
       <th>Output Tagged Photo</th>
+      <th>Output Detected Text</th>
     </tr>
   </thead>
   <tr>
@@ -22,6 +23,10 @@ python test.py
     <td>
       <pre>
       <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="300">
+</pre>
+    </td>
+  </tr>
+    <td>
 [
   {
     'text': 'LA U R EN', 
@@ -33,10 +38,7 @@ python test.py
     'score': 0.24870802462100983, 
     'coordinate': [[177, 35], [533, 35], [533, 121], [177, 121]]
    }
- ]
-</pre>
-    </td>
-  </tr>
+ ]    </td>
 </table>
 
 
