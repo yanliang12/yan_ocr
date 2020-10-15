@@ -75,4 +75,27 @@ extract_text(
 </pre>
 </td>
 </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test1.jpg" height="180">
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test1_output.png" height="180">
+    </td>
+    <td>
+<pre>
+[
+  {
+    'text': 'OryRoses', 
+    'score': 0.1685032993555069, 
+    'coordinate': [
+      		[289, 89], 
+      		[521, 43], 
+      		[532, 120], 
+      		[301, 166]]
+  }
+]    
+</pre>
+</td>
+</tr>
 </table>
