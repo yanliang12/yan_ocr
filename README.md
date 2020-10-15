@@ -21,11 +21,10 @@ python test.py
       <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4.png" height="300">
     </td>
     <td>
-      <pre>
       <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="300">
-</pre>
     </td>
     <td>
+<pre>
 [
   {
     'text': 'LA U R EN', 
@@ -38,6 +37,7 @@ python test.py
     'coordinate': [[177, 35], [533, 35], [533, 121], [177, 121]]
    }
  ]    
+</pre>
 </td>
 </tr>
 </table>
