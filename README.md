@@ -77,24 +77,23 @@ extract_text(
 </tr>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test1.jpg" height="180">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test2.jpeg" height="180">
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test1_output.png" height="180">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test2_output.png" height="180">
     </td>
     <td>
 <pre>
 [
-  {
-    'text': 'OryRoses', 
-    'score': 0.1685032993555069, 
-    'coordinate': [
-      		[289, 89], 
-      		[521, 43], 
-      		[532, 120], 
-      		[301, 166]]
-  }
-]    
+	{
+		'text': 'Dubai', 
+		'score': 0.9788331389427185, 
+		'coordinate': [[78, 12], 
+				[144, 12], 
+				[144, 42],
+				[78, 42]]
+	}
+] 
 </pre>
 </td>
 </tr>
