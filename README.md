@@ -10,8 +10,32 @@ python test.py
 
 input: 
 
-<img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4.png" height="500">
-<img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="500">
+
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Input activity level data</th>
+      <th>Output</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4.png" height="300">
+    </td>
+    <td>
+      <pre>
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="300">
+{
+  'prediction': 'depressed', 
+  'confidence': 0.9602384
+}
+</pre>
+    </td>
+  </tr>
+</table>
 
 
 output: 
