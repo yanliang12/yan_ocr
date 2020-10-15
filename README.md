@@ -18,10 +18,10 @@ python test.py
   </thead>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4.png" height="300">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4.png" height="200">
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="300">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="200">
     </td>
     <td>
 <pre>
@@ -29,12 +29,14 @@ python test.py
   {
     'text': 'LA U R EN', 
     'score': 0.3055954575538635, 
-    'coordinate': [[590, 31], [1021, 31], [1021, 122], [590, 122]]
+    'coordinate': [[590, 31], [1021, 31], 
+                  [1021, 122], [590, 122]]
   }, 
   {
     'text': 'RAL PH', 
     'score': 0.24870802462100983, 
-    'coordinate': [[177, 35], [533, 35], [533, 121], [177, 121]]
+    'coordinate': [[177, 35], [533, 35], 
+                  [533, 121], [177, 121]]
    }
  ]    
 </pre>
@@ -43,14 +45,7 @@ python test.py
 </table>
 
 
-output: 
 
-```bash
-([[43, 32], [238, 32], [238, 84], [43, 84]], '香梅 路>北', 0.4429141581058502)
-([[16, 54], [42, 54], [42, 80], [16, 80]], '南', 0.9915257692337036)
-([[60, 75], [149, 75], [149, 99], [60, 99]], 'Xiangmei', 0.5337048172950745)
-([[155, 77], [185, 77], [185, 97], [155, 97]], 'Rd', 0.9821609854698181)
-```
 
 input: 
 
