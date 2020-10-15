@@ -18,10 +18,10 @@ python test.py
   </thead>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4.png" height="150">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4.png" height="180">
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="150">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="180">
     </td>
     <td>
 <pre>
