@@ -10,7 +10,9 @@ python test.py
 
 input: 
 
-![input](/chinese_ocr.jpeg)
+<img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4.png" height="500">
+<img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="500">
+
 
 output: 
 
