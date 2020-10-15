@@ -22,10 +22,18 @@ python test.py
     <td>
       <pre>
       <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="300">
-{
-  'prediction': 'depressed', 
-  'confidence': 0.9602384
-}
+[
+  {
+    'text': 'LA U R EN', 
+    'score': 0.3055954575538635, 
+    'coordinate': [[590, 31], [1021, 31], [1021, 122], [590, 122]]
+  }, 
+  {
+    'text': 'RAL PH', 
+    'score': 0.24870802462100983, 
+    'coordinate': [[177, 35], [533, 35], [533, 121], [177, 121]]
+   }
+ ]
 </pre>
     </td>
   </tr>
