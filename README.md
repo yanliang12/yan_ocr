@@ -8,17 +8,11 @@ docker run -it -v /Users/yan/Downloads/:/yan/ yan_ocr:1.0.1
 python test.py
 ```
 
-input: 
-
-
-
-
-
 <table>
   <thead>
     <tr>
-      <th>Input activity level data</th>
-      <th>Output</th>
+      <th>Input Photo</th>
+      <th>Output Tagged Photo</th>
     </tr>
   </thead>
   <tr>
