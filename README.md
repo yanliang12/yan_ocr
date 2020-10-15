@@ -24,10 +24,10 @@ extract_text(
   </thead>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4.png" height="180">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4.png" height="190">
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="180">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test4_output.png" height="190">
     </td>
     <td>
 <pre>
@@ -54,10 +54,10 @@ extract_text(
 </tr>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test1.jpg" height="180">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test1.jpg" height="190">
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test1_output.png" height="180">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test1_output.png" height="190">
     </td>
     <td>
 <pre>
@@ -77,10 +77,10 @@ extract_text(
 </tr>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test2.jpeg" height="180">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test2.jpeg" height="190">
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test2_output.png" height="180">
+      <img src="https://raw.githubusercontent.com/yanliang12/yan_ocr/main/test2_output.png" height="190">
     </td>
     <td>
 <pre>
