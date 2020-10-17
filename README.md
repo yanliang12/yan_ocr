@@ -1,23 +1,6 @@
 # yan_ocr
 
 
-```bash
-docker build -t yan_ocr:1.0.1 .
-docker run -it -v /Users/yan/Downloads/:/yan/ yan_ocr:1.0.1
-```
-
-```python
->>> from yan_ocr import extract_text
->>> 
->>> output = extract_text(
-...     image_path = "test2.jpeg",
-...     output_image_path = "/yan/test2_output.png")
->>> 
->>> print(output)
-[{'text': 'Dubai', 'score': 0.9788331389427185, 'coordinate': [[78, 12], [144, 12], [144, 42], [78, 42]]}]
->>> 
-```
-
 <table>
   <thead>
     <tr>
@@ -102,3 +85,22 @@ docker run -it -v /Users/yan/Downloads/:/yan/ yan_ocr:1.0.1
 </td>
 </tr>
 </table>
+
+
+
+```bash
+docker build -t yan_ocr:1.0.1 .
+docker run -it -v /Users/yan/Downloads/:/yan/ yan_ocr:1.0.1
+```
+
+```python
+>>> from yan_ocr import extract_text
+>>> 
+>>> output = extract_text(
+...     image_path = "test2.jpeg",
+...     output_image_path = "/yan/test2_output.png")
+>>> 
+>>> print(output)
+[{'text': 'Dubai', 'score': 0.9788331389427185, 'coordinate': [[78, 12], [144, 12], [144, 42], [78, 42]]}]
+>>> 
+```
