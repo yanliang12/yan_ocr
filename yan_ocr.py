@@ -8,7 +8,7 @@ reader_en = easyocr.Reader(['en'])
 
 def extract_text(
 	image_path,
-	output_image_path):
+	output_image_path = None):
 	o = reader_en.readtext(image_path)
 	output = [{"text": r[1], "score": r[2], 
 		"coordinate": [list(p) for p in numpy.array(r[0]).astype(int)]}
