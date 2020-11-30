@@ -8,13 +8,14 @@ RUN apt-get install -y curl
 
 RUN pip install easyocr
 
-RUN  apt-get install -y libgl1-mesa-dev
+RUN apt-get install -y libgl1-mesa-dev
+RUN pip install pyyaml
 
-RUN wget https://raw.githubusercontent.com/yanliang12/yan_ocr/main/yan_ocr_download_model.py
+RUN python -c "import easyocr;reader = easyocr.Reader(['en'])"
+RUN python -c "import easyocr;reader = easyocr.Reader(['ch_sim'])"
+RUN python -c "import easyocr;reader = easyocr.Reader(['ar'])"
 
-RUN python yan_ocr_download_model.py
-
-RUN apt-get install -y tar
+WORKDIR /
 
 RUN git clone https://github.com/yanliang12/yan_ocr.git
 
